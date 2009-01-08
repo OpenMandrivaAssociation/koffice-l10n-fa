@@ -1,6 +1,6 @@
 Name: koffice-l10n-fa
 Version: 1.9.98.3
-Release: %mkrel 1
+Release: %mkrel 2
 Summary: Language files for KOffice Farsi
 Group: System/Internationalization
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
@@ -10,6 +10,7 @@ BuildArch: noarch
 Source: ftp://ftp.kde.org/pub/kde/unstable/koffice-%version/src/koffice-l10n/%name-%version.tar.bz2
 BuildRequires: gettext >= 0.15
 BuildRequires: kdelibs4-devel
+Obsoletes: koffice-i18n-fa
 Requires: locales-fa
 Requires: koffice-core
 Provides: koffice-l10n
