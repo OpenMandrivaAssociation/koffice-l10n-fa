@@ -1,6 +1,6 @@
 Name: koffice-l10n-fa
 Version: 1.9.98.5
-Release: %mkrel 2
+Release: %mkrel 3
 Summary: Language files for KOffice Farsi
 Group: System/Internationalization
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
