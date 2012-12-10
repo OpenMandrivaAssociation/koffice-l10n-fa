@@ -1,6 +1,6 @@
 Name: koffice-l10n-fa
 Version: 1.9.98.5
-Release: %mkrel 3
+Release: %mkrel 2
 Summary: Language files for KOffice Farsi
 Group: System/Internationalization
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
@@ -37,3 +37,23 @@ rm -rf %buildroot
 
 %clean
 rm -rf %buildroot
+
+
+%changelog
+* Sat Jan 17 2009 Funda Wang <fwang@mandriva.org> 1.9.98.5-2mdv2009.1
++ Revision: 330483
+- new version 1.9.98.5
+
+* Thu Jan 08 2009 Helio Chissini de Castro <helio@mandriva.com> 1.9.98.3-2mdv2009.1
++ Revision: 327182
+- Don't need anymore old packages
+
+* Thu Dec 11 2008 Funda Wang <fwang@mandriva.org> 1.9.98.3-1mdv2009.1
++ Revision: 312669
+- new version 1.9.98.3
+
+* Thu Nov 20 2008 Funda Wang <fwang@mandriva.org> 1.9.98.2-1mdv2009.1
++ Revision: 305038
+- add source and spec
+- Created package structure for koffice-l10n-fa.
+
